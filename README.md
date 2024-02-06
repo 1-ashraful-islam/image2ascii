@@ -6,6 +6,13 @@ Since the package returns the ASCII image as a slice of strings, you can easily 
 
 Inspiration for this package came from [image-to-ascii-art](https://github.com/Sayutizxc/image-to-ascii-art) [ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter)
 
+## Features
+
+- [x] Convert an image to ASCII in color
+- [x] Maintains aspect ratio of the original image
+- [x] Returns the ASCII image as a slice of strings
+- [x] Provides a loading function for image paths
+
 ## Installation
 
 If you want to use this package in your go project, you can install it using the following command:
@@ -57,5 +64,8 @@ go test ./... -v -cover
 
 | Original Image | ASCII Image |
 |---|---|
-![Pikachu](examples/pikachu.png) | ![Pikachu ASCII](examples/pikachu_ascii.png)
+|![Pikachu](examples/pikachu.png) | ![Pikachu ASCII](examples/pikachu_ascii.png)|
+|![Mona Lisa](examples/the-mona-lisa-painting.jpg) | ![Mona Lisa ASCII](examples/mona-lisa-ascii.png)|
+|![Toy Story](examples/toyStoryEverywhere.jpg) | ![Toy Story ASCII](examples/toy-story-ascii.png)|
 
+Original Images (left column) used in the examples are not property of the author and were taken from the internet. They are used for educational purposes only.
